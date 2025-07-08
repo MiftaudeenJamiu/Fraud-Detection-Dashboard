@@ -19,7 +19,7 @@ This end-to-end fraud detection analytics project demonstrates the use of Python
 
 ### Data Sources
 ---
-The dataset was custom-generated in Jupyter Notebook using Python to simulate over 10,000 realistic financial transactions for fraud analysis. Key fraud patterns were intentionally embedded, including weekend spikes, elevated risk associated with specific payment methods (e.g., credit cards), and a consistent 9% fraud rate to ensure analytical relevance. The data spans five years and includes randomised user demographics, device types, timestamps, and IP addresses, enabling robust fraud detection modelling. This controlled environment enables the testing and validation of end-to-end analytics workflows, simulating real-world scenarios without compromising data privacy or requiring access to sensitive information.
+The dataset [fraud_model_data.xlsx](https://github.com/user-attachments/files/21126499/fraud_model_data.xlsx) was custom-generated in Jupyter Notebook using Python to simulate over 10,000 realistic financial transactions for fraud analysis. Key fraud patterns were intentionally embedded, including weekend spikes, elevated risk associated with specific payment methods (e.g., credit cards), and a consistent 9% fraud rate to ensure analytical relevance. The data spans five years and includes randomised user demographics, device types, timestamps, and IP addresses, enabling robust fraud detection modelling. This controlled environment enables the testing and validation of end-to-end analytics workflows, simulating real-world scenarios without compromising data privacy or requiring access to sensitive information. 
 
 ### Tools
 ---
@@ -40,7 +40,7 @@ The raw dataset generated in Python was cleaned using Excel before importing it 
 
 3. Formatting
   Ensured TransactionDate was in the proper date-time format
-  Formatted numeric columns (e.g., TransactionAmount, Age) consistently
+  Formatted numeric columns (e.g., Transaction Amount, Age) consistently
   Standardised text case for categorical columns like PaymentMethod
 
 4. Data Cleaning
@@ -65,11 +65,11 @@ EDA involved identifying patterns, detecting outliers, analysing relationships b
 
 ### Data Analysis
 ---
-As part of the data preparation process to create a report and dashboard in Power BI, some key activities that are done include;
+As part of the data preparation process to create a report and dashboard in Power BI, some key activities are done, including;
 - Initial Data Inspection: Queried tables to understand structure, row counts, and value distributions.
 - Data Cleaning: Removed null or inconsistent entries (e.g., missing user IDs or transaction dates) and standardised column formats (e.g., dates, text casing).
 - Data Integrity Checks: Ensured foreign key relationships (e.g., between users and transactions). Verified uniqueness of primary keys (like TransactionID, UserID).
-- Feature Enhancement: Added and transformed columns like unique device and Fraud attempted rate by user.
+- Feature Enhancement: Added and transformed columns, such as unique device and Fraud attempted rate by user.
 
 
 ### Visualisations and Reports
@@ -77,12 +77,13 @@ As part of the data preparation process to create a report and dashboard in Powe
 This section shows the Power BI dashboards built to detect fraud and analyse user activity. Each visual is designed to surface specific patterns, such as when fraud occurs, which users are involved, and which payment methods are most at risk, using actual transaction data.
 
 - Fraud Detection Dashboard
-1. Fraud Over Time: Line/column charts show monthly and daily trends in fraud volume.
+1. Fraud Over Time: Line and column charts display monthly and daily trends in fraud volume.
 2. Fraud by Payment Method: Visualises risk associated with different payment types (e.g., credit card, PayPal).
 3. Fraud Count by User: Identifies high-risk users with frequent fraud attempts. 
 4. KPI cards show overall transaction volume, fraud loss, YOY and MOM fraud amount and rates.
 
- See screenshots below for an overview of the fraud detection dashboard
+ See the shots below for an overview of the fraud detection dashboard
+ 
 ![Fraud Detection Dashboard](https://github.com/user-attachments/assets/bd3f4c18-66eb-495f-b179-e3bd03e44861)
 
 
@@ -92,7 +93,7 @@ This section shows the Power BI dashboards built to detect fraud and analyse use
   2. Anomaly Score Trend: Line chart showing risk score variations.
   3. User Profile Table: Includes age, gender, IP address, device used, fraud attempts, and payment method.
 
- See screenshots below for an overview of the user insights dashboard
+ See the shots below for an overview of the user insights dashboard
 
 ![Users Insiights](https://github.com/user-attachments/assets/9e3536ef-a2bb-4ee5-93a4-8f3488c28ced)
 
@@ -120,5 +121,5 @@ The goal was to build a practical fraud detection dashboard that can support dec
 
 ### Limitations
 ---
-Real financial data wasn’t available due to privacy restrictions, so the project uses simulated transactions. While patterns like weekend fraud and high-risk payment methods were replicated, real systems rely on richer data (e.g., device fingerprinting, login history). This limits real-world accuracy, but the project effectively demonstrates key fraud analytics concepts and technical execution.
+Real financial data wasn’t available due to privacy restrictions, so the project uses simulated transactions. While patterns like weekend fraud and high-risk payment methods were replicated, real systems rely on richer data (e.g., device fingerprinting, and login history). This limits real-world accuracy, but the project effectively demonstrates key fraud analytics concepts and technical execution.
 
