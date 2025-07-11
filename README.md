@@ -84,18 +84,24 @@ This section shows the Power BI dashboards built to detect fraud and analyse use
 
  See the shots below for an overview of the fraud detection dashboard
  
-![Fraud Detection Dashboard](https://github.com/user-attachments/assets/bd3f4c18-66eb-495f-b179-e3bd03e44861)
+ 
+<img width="1272" height="680" alt="Screenshot 2025-07-11 130235" src="https://github.com/user-attachments/assets/c1f27af4-c02e-4c8f-8edb-f4b8c6d4e9d3" />
 
 
-- Users Insights
+
+- User's Insights
  Designed to drill into individual user activity:
   1. User-Level KPIs: First and latest transaction, total transactions, total fraud.
   2. Anomaly Score Trend: Line chart showing risk score variations.
   3. User Profile Table: Includes age, gender, IP address, device used, fraud attempts, and payment method.
 
  See the shots below for an overview of the user insights dashboard
+ 
+ 
 
-![Users Insiights](https://github.com/user-attachments/assets/9e3536ef-a2bb-4ee5-93a4-8f3488c28ced)
+<img width="1236" height="674" alt="Screenshot 2025-07-11 130253" src="https://github.com/user-attachments/assets/78724a6f-e263-435d-aef8-1b35e51be293" />
+
+
 
 
 ### Results and Findings
